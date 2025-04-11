@@ -10,8 +10,6 @@ const Header = () => {
           <Navbar.Brand href="#home">Gom Showroom</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="#home">Inicio</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
             <NavDropdown title="Categorias" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Peluches</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
