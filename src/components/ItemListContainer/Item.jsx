@@ -2,18 +2,18 @@ import React from 'react'
 import {Card, } from 'react-bootstrap'
 import Boton from '../Boton/Boton'
 
-const Item = ({id, titulo, descripcion, precio}) => {
+const Item = ({id, title, description, price, image}) => {
   return (
     <div>
         <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src={image} />
       <Card.Body>
-        <Card.Title>{titulo}</Card.Title>
+        <Card.Title>{title}</Card.Title>
         <Card.Text>
-          {descripcion}
+          {description}
         </Card.Text>
         <Card.Text>
-            ${precio}
+            ${price}
         </Card.Text>
         <Boton
         label = {"Comprar"}
